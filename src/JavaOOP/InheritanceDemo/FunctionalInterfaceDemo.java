@@ -5,6 +5,10 @@ interface A{
     void show();
 }
 
+interface B {
+    int show(int a, int b);
+}
+
 //class B implements A{
 //    @Override
 //    public void show() {
